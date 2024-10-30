@@ -98,6 +98,12 @@ public class Blackjack
                         message = "You Lose.";
                     }
 
+                    // Displaying the dealer's hand value
+                    g.setFont(new Font("Arial",Font.PLAIN, 18));
+                    g.setColor(Color.white);
+                    g.drawString("Dealer hand value: " + dealerSum, 25, 200);
+
+
                     // Displaying game result
                     g.setFont(new Font("Arial",Font.PLAIN, 30));
                     g.setColor(Color.white);
